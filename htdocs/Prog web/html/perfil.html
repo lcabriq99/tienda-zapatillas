@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en">
+	<head>  
+	<title>Perfil</title>  
+	<meta charset="utf-8">
+	<link href="\Prog web\css\perfil.css" rel="stylesheet">
+	<form method="post" action="\Prog web\php\perfil.php">
+	</head>
+	<body>
+	  <section class="login">
+		<article class="login-screen">
+		  <span class="app-title">
+			<h1>Iniciar sesión</h1>
+		  </span>
+	
+		  <span class="login-form">
+			<span class="control-group">
+			<input type="text" class="login-field" value="" placeholder="Usuario" type="text" name="txtusuario" id="txtusuario" required>
+			<label class="login-field-icon fui-user" for="login-name"></label>
+			</span>
+	
+			<span class="control-group">
+			<input class="login-field" value="" placeholder="Contrasena" type="password" name="txtpassword" id="txtpassword"required>
+			<label class="login-field-icon fui-lock" for="login-pass"></label>
+			</span>
+			<br><br>
+			<input class="btn btn-primary btn-large btn-block" type="submit" value="acceder"/>
+		  </span>
+		  <br><br>
+		</form>
+		 
+		<form action="\Prog web\php\pagina1.php" method="post">
+		 
+		  <span class="app-title">
+			<h1>Registro</h1>
+		  </span>
+		  <article class="login-form">
+			<span class="control-group">
+			<input  class="login-field" placeholder="Usuario" type="text" name="usuarioingresar" >
+			<label class="login-field-icon fui-user" for="login-name"></label>
+			</span>
+			<span class="control-group">
+			<input class="login-field" placeholder="Contrasena" type="text" name="contrasenaingresar">
+			<label class="login-field-icon fui-lock" for="login-pass"></label>
+			</span>
+			<br><br>
+			<input type="submit" value="Confirmar" class="btn btn-primary btn-large btn-block">
+			
+		  </article>
+		  <br><br><br>
+		</article>
+	    </form>
+	  </section>
+	</body>
+

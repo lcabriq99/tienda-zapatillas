@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="en">
+	<head>  
+	<title>Localizacion</title>  
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	  <link href="\Prog web\css\bootstrap.css" rel="stylesheet">
+	  <link href="\Prog web\css\reset.css" rel="stylesheet">
+	  <link href="\Prog web\css\localizacion.css" rel="stylesheet">
+		<script src="\Prog web\json\bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="\Prog web\json\maps.js"></script>
+    <script src="\Prog web\json\localizacion.js"></script>
+		<link rel="shortcut icon" href="\Prog web\resources\logo.png">
+	</head>
+	
+	<body>
+		<header>
+			
+			<section class="navbar">
+				<a href="inicio.html"><img src="\Prog web\resources/logo.png" id="logo"></a>
+				<a href="inicio.html">Inicio</a>
+				<a href="\carrito\index.php">Productos</a>
+				<a href="\Prog web\html\contacto.html">Contacto</a>
+				<a href="\Prog web\html\calendario.html">Calendario de eventos</a>
+				<a href="\Prog web\html\localizacion.html">Nuestras tiendas</a>
+				<a href="\Prog web\html\perfil.html">Perfil</a>
+				<button id="btnbuscar" class="buscador">Buscar</button>
+				<input type="text" id="buscador" class="buscador">
+				
+			</section>	
+		</header><br><br>
+</body>
+<span id="map-canvas"></span>
+    <span id="markers">
+        <br><br><br><br><br><br><br><br>
+      <h1>Distancia a nuestras tiendas principales desde su ubicación</h1>
+      <br>
+        <ul></ul>
+    </span>
+	<br>
+	<footer class="bg-light text-center text-white">
+		<!-- Grid container -->
+		<span class="container p-4 pb-0">
+		  <!-- Section: Social media -->
+		  <section class="mb-4">
+			<!-- Facebook -->
+			<a href="https://www.facebook.com" 
+			  class="btn btn-primary btn-floating m-1 colorfacebook" 
+			  
+			  role="button"
+			  ><i class="fab fa-facebook-f"></i
+			></a>
+	  
+			<!-- Twitter -->
+			<a href="https://twitter.com/?lang=es"
+			  class="btn btn-primary btn-floating m-1 colortwitter"
+
+			  role="button"
+			  ><i class="fab fa-twitter"></i
+			></a>
+			<!-- Instagram -->
+			<a href="https://www.instagram.com/sneake_shoe/"
+			  class="btn btn-primary btn-floating m-1 colorinstagram"		  
+			  role="button"
+			  ><i class="fab fa-instagram"></i
+			></a>
+		  </section>
+		  <!-- Section: Social media -->
+		</span>
+		<!-- Grid container -->
+
+		<!-- Copyright -->
+		<span class="text-center p-3 colorfooter" >
+		  © 2020 Copyright:
+		  <a class="text-white">LuisCabelloRiquelme.com</a>
+		</span>
+		<!-- Copyright -->
+	  </footer>
+	</html>

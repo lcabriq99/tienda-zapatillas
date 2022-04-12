@@ -1,0 +1,82 @@
+.navbar {
+  overflow: hidden;
+  background-color: #3498DB;
+  margin-top: 10px;
+}
+#logo{
+	margin-left: 10px;
+	margin-right: 35px;
+	height: 55px;
+	width: 60px;
+	border-radius: 50%;
+	float: left;
+	/*padding: 14px 16px;*/
+	padding-right: 5px;
+}
+.navbar button, input{
+	float: right;
+	padding: 5px 10px;
+	margin-top: 8px;
+	margin-right:10px; 
+}
+.navbar button{
+	transition-duration: 0.1s;
+	background-color: #3498DB;
+	color: white;
+	border-radius: 20%;
+	margin-right: 20px;
+}
+
+.navbar button:hover{
+	background-color: gray;
+	
+}
+
+.posicionamiento{
+	float: right;
+	float:unset;
+}
+
+.colorinstagram{
+	background-color: #ac2bac;
+}
+.colorfacebook{
+	background-color: #3b5998;
+}
+.colortwitter{
+	background-color: #55acee;
+}
+
+.colorfooter{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+.navbar a:hover {
+  
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #F3F407;
+  color: black;
+}
+
+.container {
+	width: 98%;
+  }
+
+.ubicacion{
+	width:1250; 
+	height: 550;
+}
+
